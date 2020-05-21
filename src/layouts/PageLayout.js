@@ -11,7 +11,7 @@ import { ROUTES } from 'src/utils/constants';
 const PageLayout = ({ children }) => {
   const {
     error,
-    user: {
+    data: {
       name,
       login: username,
       bio,

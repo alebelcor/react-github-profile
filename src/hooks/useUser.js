@@ -19,6 +19,6 @@ export const useUser = () => {
   return {
     error,
     status,
-    user: response?.data ?? {},
+    data: response?.data ?? {},
   };
 };
